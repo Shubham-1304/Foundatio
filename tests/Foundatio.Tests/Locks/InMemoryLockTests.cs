@@ -1,13 +1,13 @@
 using System;
 using System.Threading.Tasks;
-using Foundatio.Caching;
-using Foundatio.Lock;
-using Foundatio.Messaging;
+using Foundation.Caching;
+using Foundation.Lock;
+using Foundation.Messaging;
 using Xunit;
 using Xunit.Abstractions;
-using Foundatio.Utility;
+using Foundation.Utility;
 using Microsoft.Extensions.Logging;
-using Foundatio.Xunit;
+using Foundation.Xunit;
 
 namespace Foundatio.Tests.Locks {
     public class InMemoryLockTests : LockTestBase, IDisposable {
